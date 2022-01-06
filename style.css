@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Qwitcher+Grypen&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', sans-serif;
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.content {
+    align-self: center;
+}
+
+.welcome {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    text-align: center;
+    line-height: .8em;
+    margin-bottom: 40px;
+}
+
+.signature {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.box-wrapper {
+    margin: 0 10vw;
+    max-width: 800px;
+    /* display: flex;
+    flex-direction: row;
+    column-gap: 30px; */
+}
+
+.box {
+    flex-basis: 100%;
+}
+
+#img-tr, #img-bl {
+    position: fixed;
+    width: 50vw;
+    max-width: 70vh;
+    /* max-height: 60vh; */
+}
+
+#img-tr {
+    top: -6vw;
+    right: -6vw;
+}
+
+#img-bl {
+    bottom: -6vw;
+    left: -6vw;
+    transform: rotate(170deg);
+}
